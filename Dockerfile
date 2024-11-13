@@ -1,4 +1,5 @@
-FROM nginx
+# We need to use NGINX 1.22.1 as that is the highest version of nginx the nginx-extras package supports
+FROM docker.io/nginx:1.22.1
 
 RUN apt-get update -y && apt-get install -y nginx-extras apache2-utils
 

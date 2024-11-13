@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx
 
 RUN apt-get update -y && apt-get install -y nginx-extras apache2-utils
 

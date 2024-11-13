@@ -1,0 +1,6 @@
+apiVersion: v2
+name: keeweb
+description: A helm chart which deploys the KeeWeb password manager.
+
+type: application
+version: 0.1.0

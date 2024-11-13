@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  keeweb:
+  - apiVersion: v2
+    created: "2024-11-13T23:38:25.314465393Z"
+    description: A helm chart which deploys the KeeWeb password manager.
+    digest: b0338c76f4f1481fb5a257b13f4a96d5f830957e1c33c1de1d0daf385ee4595f
+    name: keeweb
+    type: application
+    urls:
+    - https://github.com/ldtteam/NginxWebDav/releases/download/keeweb-v0.0.3/keeweb-v0.0.3.tgz
+    version: v0.0.3
+generated: "2024-11-13T23:38:25.314471635Z"

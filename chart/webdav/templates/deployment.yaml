@@ -40,7 +40,7 @@ spec:
             {{- toYaml .Values.resources | nindent 12 }}
           volumeMounts:
             - name: webdav
-              mountPath: {{- .Values.persistence.mountPath}}
+              mountPath: {{ .Values.persistence.mountPath }}
             {{- with .Values.persistence.additionalVolumeMounts }}
             {{- toYaml . | nindent 12 }}
             {{- end }}

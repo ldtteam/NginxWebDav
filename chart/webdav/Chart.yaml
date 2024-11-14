@@ -1,6 +1,6 @@
 apiVersion: v2
-name: keeweb
-description: A helm chart which deploys the KeeWeb password manager.
+name: nginx-web-dav
+description: A helm chart which deploys a simple webdav server using nginx. Can be secured using chart properties on the ingress.
 
 type: application
 version: 0.1.0

@@ -12,6 +12,16 @@ entries:
     version: v0.0.3
   nginx-web-dav:
   - apiVersion: v2
+    created: "2024-11-14T12:16:51.599084642Z"
+    description: A helm chart which deploys a simple webdav server using nginx. Can
+      be secured using chart properties on the ingress.
+    digest: 45536211d90a7eef7ad4427869a9f9e863f8bfc50fb48adbe275da414b649b31
+    name: nginx-web-dav
+    type: application
+    urls:
+    - https://github.com/ldtteam/NginxWebDav/releases/download/nginx-web-dav-v0.0.7/nginx-web-dav-v0.0.7.tgz
+    version: v0.0.7
+  - apiVersion: v2
     created: "2024-11-14T11:29:57.565758162Z"
     description: A helm chart which deploys a simple webdav server using nginx. Can
       be secured using chart properties on the ingress.
@@ -41,4 +51,4 @@ entries:
     urls:
     - https://github.com/ldtteam/NginxWebDav/releases/download/nginx-web-dav-v0.0.4/nginx-web-dav-v0.0.4.tgz
     version: v0.0.4
-generated: "2024-11-14T11:29:57.565776246Z"
+generated: "2024-11-14T12:16:51.59912067Z"

@@ -31,7 +31,7 @@ persistence:
   annotations: {}
   labels: {}
   size: "1Gi"
-  storageClass: "default"
+  storageClass: "longhorn"
   additionalVolumes: []
   additionalVolumeMounts: []
 

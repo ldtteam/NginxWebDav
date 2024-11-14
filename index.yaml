@@ -10,4 +10,15 @@ entries:
     urls:
     - https://github.com/ldtteam/NginxWebDav/releases/download/keeweb-v0.0.3/keeweb-v0.0.3.tgz
     version: v0.0.3
-generated: "2024-11-13T23:38:25.314471635Z"
+  nginx-web-dav:
+  - apiVersion: v2
+    created: "2024-11-14T09:45:34.621457087Z"
+    description: A helm chart which deploys a simple webdav server using nginx. Can
+      be secured using chart properties on the ingress.
+    digest: 43b53a2105542b0654baa83fffdc8d2e2226b462cca7d92c86632ff6ffd855c5
+    name: nginx-web-dav
+    type: application
+    urls:
+    - https://github.com/ldtteam/NginxWebDav/releases/download/nginx-web-dav-v0.0.4/nginx-web-dav-v0.0.4.tgz
+    version: v0.0.4
+generated: "2024-11-14T09:45:34.621464911Z"

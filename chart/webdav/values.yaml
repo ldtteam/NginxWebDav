@@ -29,6 +29,7 @@ persistence:
   name: "webdav"
   mountPath: "/media/data"
   annotations: {}
+  labels: {}
   size: "1Gi"
   storageClass: "default"
   additionalVolumes: []

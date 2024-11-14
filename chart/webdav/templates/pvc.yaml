@@ -4,6 +4,9 @@ metadata:
   name: {{ include "nginxwebdav.fullname" . }}-{{ .Values.persistence.name }}
   annotations:
     {{- toYaml .Values.persistence.annotations | nindent 4 }}
+  labels:
+    {{- include "nginxwebdav" . | nindent 4 }}
+    {{- .Values.persistence.labels | nindent 4 }}
 spec:
   accessModes:
     - ReadWriteOnce
